@@ -1,0 +1,5 @@
+用户表在数据库中使用的是django自带的表，如果不合适的话需要更换
+
+邮件发送等部分应异步进行防止阻塞
+
+blog.modles中Blog，category属性删除时可设置为DEFAULT，default=默认id
